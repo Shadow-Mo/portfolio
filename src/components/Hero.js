@@ -17,9 +17,17 @@ const skillsIcons = [
         id: 3,
     },
     {
-        img: "https://skillicons.dev/icons?i=git,scss",
+        img: "https://skillicons.dev/icons?i=git,tailwindcss",
         id: 4,
     },
+    {
+        img: "https://skillicons.dev/icons?i=mysql,mongodb",
+        id: 5,
+    },
+    // {
+    //     img: "https://skillicons.dev/icons?i=materialui,github",
+    //     id: 6,
+    // }
 ];
 
 function Hero() {
