@@ -15,7 +15,17 @@ $text-color: #767676;
 $header-color: #147efb;
 $black-shade: #2d2e32;
 
+.logoImage {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+}
 
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .mobile-menu {
   font-size: 2.3rem;
@@ -90,7 +100,7 @@ $black-shade: #2d2e32;
 nav {
   font-size: $text-size;
   width: 100%;
-  height: auto;
+  height: 85px;
   padding: 25px 40px 25px 50px;
   display: flex;
   justify-content: space-between;

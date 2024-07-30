@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Navbar.scss';
+import "./Navbar.scss";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 
 function Navbar() {
@@ -35,9 +35,12 @@ function Navbar() {
   return (
     <>
       <nav>
-        <h3 onClick={pageUp} className="logo">
-          Mounesha.Zonde
-        </h3>
+        <div className="logoSection">
+          <img src="./logo.svg" alt="Logo" className="logoImage" />
+          <h3 onClick={pageUp} className="logo">
+            Mounesha Zonde | Portfolio
+          </h3>
+        </div>
         <ul>
           {navlinks.map((item) => (
             <li key={item.name}>
